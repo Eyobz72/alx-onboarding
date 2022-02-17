@@ -1,0 +1,24 @@
+	#reads in three numbers and writes them all in sorted order
+
+		A=INPUT("Number one")
+		B=INPUT("Number two")
+		C=INPUT("Number three")
+			IF A >= B THEN
+				Y=A/C
+					IF Y >= 1
+						Z=B/C
+							IF Z >= 1
+								PRINT "accending order "A,B,C""
+							ELSE IF
+								PRINT "accending order "A,C,B""
+					ELSE
+						PRINT "accending order "C,A,B""
+			ELSE IF B >= C
+					Y=A/C
+						IF Y >=1
+							PRINT "accending order "B,A,C""
+						ELSE 
+							PRINT "accending order "B,C,A""
+			ELSE
+				PRINT "accending order "C,B,A""
+					

@@ -1,0 +1,26 @@
+#calculate the sum of squares of given input of numbers
+
+	Numbers=INPUT("how many numbers?")
+		IF Numbers > 1 THEN 
+			FOR (i=1 i<=Numbers i++)
+				IF i=1 
+				X1=INPUT("Put the first number")
+				X11=X1*X1 
+				ELSE IF i=2
+				X2=INPUT("put the second number")
+				X22=X2*X2
+				.
+				.	
+				.
+				.
+				.
+				ELSE
+				Xn=INPUT("Put the Nth number")
+				Xnn=Xn*Xn
+				C=SUM(X11,X22,....,Xnn)	
+					PRINT ""THE ANSWER IS","C""
+		ELSE IF Numbers = 1 THEN
+			Y1=INPUT("Put the number")
+				PRINT ""THE ANSWER IS","Y1*Y1""
+		ELSE
+			PRINT "THE ANSWER IS 0"  

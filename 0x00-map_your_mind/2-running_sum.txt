@@ -1,0 +1,11 @@
+	#Calculate a running sum
+
+ 	N=INPUT("put a number")
+	M=0
+		WHILE N > 1 THEN
+			M=N+M
+			N=INPUT("put a number")
+				IF N < 1 
+					PRINT "THE ANSWER IS "M""
+				
+		
